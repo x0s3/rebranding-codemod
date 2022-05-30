@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "target": "ES2020",
+    "downlevelIteration": true,
+    "incremental": true,
+    "preserveWatchOutput": true,
+    "outDir": "./bin",
+    "moduleResolution": "node"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}

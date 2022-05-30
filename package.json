@@ -1,0 +1,27 @@
+{
+  "name": "winery-rebranding-codemod",
+  "version": "1.0.0",
+  "description": "Codemods for Xing rebranding :)",
+  "main": "index.js",
+  "author": "x0s3",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "node bin/cli/testing-codemods.js",
+    "watch": "tsc --watch"
+  },
+  "bin": "./bin/cli/rebranding-codemods.js",
+  "devDependencies": {
+    "@types/jest": "27.5.1",
+    "@types/jscodeshift": "0.11.5",
+    "jest": "28.1.0",
+    "jscodeshift": "0.13.1",
+    "ts-jest": "28.0.3",
+    "typescript": "4.7.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "bracketSpacing": true
+  }
+}

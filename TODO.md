@@ -1,0 +1,6 @@
+- [ ] Corner case when removing all components from winery
+  - `import "@xingternal/winery-ui";`
+- [ ] Support individual imports
+  - `import Button from "@xingternal/winery-ui/lib/Button";`
+  - Can be fixed running autogroup babel plugin that is already created :)
+- [x] ~Support component import aliases~
