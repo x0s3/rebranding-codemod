@@ -1,12 +1,20 @@
-import { Avatar, Button, List, Logo } from '@xingternal/winery-ui';
+import {
+  Avatar,
+  Button,
+  List,
+  Logo,
+  ThemeProvider,
+} from '@xingternal/winery-ui';
 
 const Noop = () => {
   return (
-    <List>
-      <Avatar />
-      <Logo />
-      <Button>Click me!</Button>
-    </List>
+    <ThemeProvider>
+      <List>
+        <Avatar />
+        <Logo />
+        <Button>Click me!</Button>
+      </List>
+    </ThemeProvider>
   );
 };
 
